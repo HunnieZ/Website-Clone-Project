@@ -1,0 +1,241 @@
+/*  HTML/CSS Project */
+
+
+/* used colour picker to get exact match #b88029; for footer #282828 */
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#b88029;
+    color: black;
+
+}
+
+.header-container {
+    /* position: fixed; tried to make the nav bar fixed but it shrinks down? */
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: white ; 
+    
+}
+
+.logo {
+    padding: 15px;
+    margin-left: 11rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: small;
+    color: black;
+}
+
+.icon-container {
+    margin-right: 11rem;
+    word-spacing: 1rem;
+}
+
+/* Introducing cultural merchandise. */
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+}
+/* footer text styled by p */
+p {
+    font-size: small;
+}
+
+/* Hey diaspora kids inspired by nostalgia. */
+.p2 {
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+main .sweatshirtcard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-container1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 1rem;
+}
+
+.label-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+/* As featured in */
+.p3 {
+    font-weight: 700;
+    font-size:40px;
+}
+
+.gq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redgreenpics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.citiesbestsellers-container {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+/* Cities of Palestine and Best Sellers */
+.p4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.navbarcountries {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.navbarcountries a {
+    text-decoration: underline;
+    font-size: small;
+    color: black;
+}
+
+.CM-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-left: 10rem;
+}
+
+.CM-textbox {
+    margin-right: 10rem;
+}
+
+/* How does it work */
+.p5 {
+    text-align: center;
+     font-weight: 700;
+     font-size: 40px;
+ }
+
+ .p6 {
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.button-containera {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 3px;
+}
+
+.button1 {
+    margin-top: 4px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    width: 36rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.button2 {
+    margin-top: 4px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    width: 24rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.p7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+     margin-bottom: 50px;
+}
+
+/* What is cultural merch? */
+.p8 {
+    text-align: left;
+     font-weight: 700;
+     font-size: 40px;
+ }
+ /* to make layout more visible */
+ /* .fabout, .fmenu, .fstayintheknow, .ffollowformorewicons, #email {
+    border: 5px solid red;
+  } */
+
+.footer-container {
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #282828;
+    color: white;
+    text-decoration: none;
+    font-size: 20px
+
+}
+
+.fabout {
+    grid
+}
+
+#email {
+    height: 2rem;
+    background-color: #282828;
+    padding: 10px 32px;
+    border: 1px solid gray;
+
+}
+
+/* arrange all of footer as in original */
